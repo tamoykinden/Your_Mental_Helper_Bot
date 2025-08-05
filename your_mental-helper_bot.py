@@ -20,7 +20,7 @@ load_dotenv()
 translator = Translator()
 
 # Инициализация бота
-TOKEN = os.getenv('MENTAL_BOT_TOKEN')
+TOKEN = os.getenv('BOT_TOKEN')
 bot = telebot.TeleBot(TOKEN)
 
 # Загрузка предобученной модели EmoRoBERTa для анализа эмоций на английском языке
